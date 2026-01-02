@@ -48,7 +48,7 @@ body{
     color: #222;
 }
 .search button img{
-    width: 16px;
+    width: 20px;
 }
 .wearher-icon{
     width: 180px;
@@ -78,4 +78,46 @@ body{
 .humidity , .wind{
     font-size: 28px;
     margin-top: -6px;
+}
+
+@media (max-width: 480px) {
+    .card {
+        padding: 20px;
+    }
+
+    .temp {
+        font-size: 48px;
+    }
+
+    .city {
+        font-size: 24px;
+    }
+
+    .weather-icon {
+        width: 120px;
+    }
+
+    .deatiles {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    .btn1{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .card {
+        max-width: 424px;
+    }
+}
+
+
+@media (min-width: 1024px) {
+    .card {
+        max-width: 450px;
+    }
 }
